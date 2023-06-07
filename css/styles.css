@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: url(../image/site-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h {
+    height: 4000px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem;
+    position: relative;
+    margin: 1rem;
+    transition: 0.3s ease-in;
+}
+
+a:hover{
+    transform: scale(1.03);
+}
+
+.content_links{
+    max-width: 50rem;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background: linear-gradient(
+        92.23deg,
+        #ff56f6 21.43%,
+        #b936ee 50.63%,
+        #3bace2 100%,
+        #406aff 117.04%
+    );
+    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+.btn:hover {
+    background: linear-gradient(
+        92.23deg,
+        #406aff 21.43%,
+        #3bace2 50.63%,
+        #b936ee 100%,
+        #ff56f6 117.04%
+    );
+}
+
+.btn {
+    @apply rounded-full font-primary text-white font-medium;
+}
